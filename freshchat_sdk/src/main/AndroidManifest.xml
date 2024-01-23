@@ -10,7 +10,9 @@
 
     <!-- [Optional] Freshchat needs RECORD_AUDIO permission to record voice messages -->
     <!-- Can be removed/negated if voice messaging is disabled -->
-    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
 
     <!-- [Optional] Freshchat needs external storage access to store voice messages -->
     <!-- Can be removed/negated if voice messaging is disabled -->
